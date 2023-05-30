@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>ENCRIPTADOR</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container__header">
+                <div class="header-logo">
+                    <img class="logo" src="./imagenes/logo.png" alt="logo alura">
+                </div>
+            </div>
+        </header>
+
+        <main>
+        <div class="main">
+
+            <section id="left" class="area-input">
+                <textarea id="ingresoTexto" class="textarea-input" placeholder="Ingrese el texto aqui" autofocus></textarea>
+                
+                <div class="input-footer">
+                    <span class="alerta-parrafo-input">
+                        <img src="./imagenes/alerta.png" alt="alerta">
+                        solo letras minúsculas y sin acentos
+                    </span>
+
+                    <div class="botones-input">
+                        <button id="botonEncriptar" class="btn-encriptar">ENCRIPTAR</button>
+                        <button id="botonDesencriptar"class="btn-desencriptar">DESENCRIPTAR</button>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section id="right" class="area-output">
+                <img id="munheco" class="img-munheco" src="./imagenes/Muñeco.png" alt="muñeco">
+            
+                <textarea id="mensajeFinal" class="mensaje-final" placeholder="Ningún mensaje fue encontrado"></textarea>
+
+                <p id="rightInfo" class="info-parrafo-output">Ingresa el texto que desees encriptar o desencriptar.</p>
+            
+                <button id="botonCopiar" class="btn-copiar btn-oculto">COPIAR</button>
+
+            </section>
+
+        </div>
+        </main>
+
+        <footer>
+            <p>Created by Aranza Botti</p>
+            
+            <div class="juntos">
+                <a href="https://github.com/Aranza-Botti" target="_blank" class="usuario">
+                <img src="./imagenes/git-logo.png" width="20px" alt="GitHub Logo">
+                <span>@Aranza-Botti</span> </a>
+
+                <a href="https://www.linkedin.com/in/aranzabotti" target="_blank" class="usuario">
+                <img src="./imagenes/linkedin-logo.png" width="20px" alt="LinkedIn Logo">
+                <span>Aranza Botti</span></a>
+            </div>
+        </footer>
+
+        <script src="./js/script.js"></script>
+        
+    </body>
+</html>
